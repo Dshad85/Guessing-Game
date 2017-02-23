@@ -10,7 +10,7 @@ for i in range(1, 6):
     if guess == number:
         print "Great job! you win"
         break
-    elif guess > 20:
+    elif guess > 20 or guess < 1:
         print "Oops, that number is not in 1 through 20!"
     else:
         print "That is not correct."
